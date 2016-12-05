@@ -3,7 +3,7 @@ steps:
   build-the-image:
     type: build
     description: Builds my service
-    image_name: pooka27/otoorders
+    image_name: apaukner/otoorders
     tag: ${{CF_SHORT_REVISION}}
   push-the-image:
     type: push
